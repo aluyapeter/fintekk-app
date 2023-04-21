@@ -1,0 +1,168 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexCenterTwo($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: flex-start;
+}
+@mixin flexEvenly($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.main {
+    width: 100%;
+    margin: auto;
+
+    .main-heading-text {
+        text-align: center;
+        width: 80%;
+        margin: 40px auto 30px auto;
+        line-height: 3rem;
+        font-size: 30px;
+        color: $primary-company-color;
+    }
+    .main-heading-paragraph {
+        text-align: center;
+        width: 80%;
+        font-size: 12px;
+        margin: auto;
+        line-height: 1.5rem;
+        color: $second-secondary-color
+    }
+
+    .main-btn-container {
+        @include flexCenter(column);
+        
+        .sign-up-btn {
+            margin-top: 30px;
+            height: 50px;
+            width: 180px;
+            border-radius: 15px;
+            border: none;
+            font-size: 18px;
+            background-color: $secondary-company-color;
+            color: white;
+        }
+        .iphone-download-btn {
+            .apple-icon {
+                font-size: 25px;
+            }
+            margin-top: 25px;
+            height: 40px;
+            width: 160px;
+            border-radius: 15px;
+            border: 1px solid $second-secondary-color;
+            background-color: white;
+            font-size: 15px;
+            @include flexEvenly(row);
+        }
+        .android-download-btn {
+            .google-play-icon {
+                font-size: 25px;
+            }
+            margin-top: 20px;
+            height: 40px;
+            width: 160px;
+            border-radius: 15px;
+            border: 1px solid $second-secondary-color;
+            background-color: white;
+            font-size: 15px;
+            @include flexEvenly(row);
+        }
+    }
+    .img-cont {
+        width: 100%;
+        margin: 100px auto 30px auto;
+    
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 20px auto;
+        // margin-top: -50px;
+
+        .left-main-div {
+            // padding: 50px;
+            .main-heading-text {
+                text-align: left;
+                margin: 0px 0px 15px 0px;
+                font-size: 35px;
+                width: 70%;
+                line-height: 3.5rem;
+            }
+            .main-heading-paragraph {
+                text-align: left;
+                width: 80%;
+                margin: 0px;
+                font-size: 16px;
+            }
+            .main-btn-container {
+                @include flexCenterTwo(column);
+    
+                .download-btn-cont {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    .iphone-download-btn {
+                        .apple-icon {
+                            font-size: 25px;
+                        }
+                        margin-top: 20px;
+                        margin-right: 20px;
+                        height: 40px;
+                        width: 160px;
+                        border-radius: 15px;
+                        border: 1px solid $second-secondary-color;
+                        background-color: white;
+                        font-size: 15px;
+                        @include flexEvenly(row);
+                    }
+                    .android-download-btn {
+                        .google-play-icon {
+                            font-size: 25px;
+                        }
+                        margin-top: 20px;
+                        height: 40px;
+                        width: 160px;
+                        border-radius: 15px;
+                        border: 1px solid $second-secondary-color;
+                        background-color: white;
+                        font-size: 15px;
+                        @include flexEvenly(row);
+                    }
+                }
+            }
+        }
+
+        .right-main-div {
+            width: 100%;
+            .img-cont {
+                margin: auto;
+            
+                img {
+                    margin: auto;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,86 @@
+.testimonial-sec-cont {
+    background-color: $testimonial-sec-bg-color;
+    margin: auto;
+    text-align: center;
+    padding: 60px 0px;
+
+    .testimonial-para {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    .testimonial-heading {
+        width: 70%;
+        margin: 20px auto;
+        color: $primary-company-color;
+        font-size: 35px;
+    }
+
+    .carousel {
+        // border: 1px solid black;
+        background-color: white;
+        width: 90%;
+        margin: 0px auto 60px auto;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+
+        .carousel-inner {
+            display: flex;
+            transition: all 0.5s ease-in-out;
+
+            .carousel-item {
+                flex-shrink: 0;
+                width: 100%;
+
+                p {
+                    font-size: 1.1rem;
+                    line-height: 2rem;
+                    color: $second-secondary-color;
+                    margin: 30px;
+                }
+                h3 {
+                    color: $primary-company-color;
+                    font-size: 20px;
+                    margin-bottom: 60px;
+                }
+            }
+        }
+    }
+    .carousel-indicators {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+        .indicator {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+
+            &.active {
+                background-color: $primary-company-color;
+                color: white;
+            }
+        }
+        .indicator-fa {
+            font-size: 18px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .right-arrow {
+            margin-right: 0px !important;
+            color: $primary-company-color;
+        }
+        .left-arrow {
+            color: $primary-company-color;
+        }
+    }
+}

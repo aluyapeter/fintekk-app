@@ -1,0 +1,66 @@
+.menu-cont {
+    position: relative;
+    z-index: 1;
+    height: 20px;
+    z-index: 999;
+    width: 28px;
+    cursor: pointer;
+    // right: 2rem;
+
+    .menu-btn {
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+        width: 25px;
+        height: 2px;
+        transition: all 1s;
+        background-color: $primary-company-color;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            width: 25px;
+            height: 2px;
+            background-color: $primary-company-color;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            top: 8px;
+            width: 20px;
+            height: 2px;
+            background-color: $primary-company-color;
+        }
+    }
+
+}
+
+.open-transition {
+    .menu-btn {
+        background-color: transparent;
+        transition: all ease-in-out 1s;
+        transform: rotate(720deg);
+        
+        &::before {
+            background-color: white;
+            transform: rotate(40deg) translateX(8px);
+            transition: all ease-in-out 1s;
+        }
+        &::after {
+            background-color: white;
+            transform: rotate(-40deg) translateX(8px);
+            transition: all ease-in-out 1s;
+            width: 25px;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .menu-cont {
+        display: none;
+    }
+}
+.pink-btn {
+    background-color: pink;
+}

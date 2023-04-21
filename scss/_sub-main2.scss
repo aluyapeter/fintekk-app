@@ -1,0 +1,86 @@
+.sub-main2 {
+    // background-color: black;
+    .start-your-journey-text {
+        text-align: center;
+        color: $primary-company-color;
+        line-height: 2.5rem;
+        width: 70%;
+        margin: 10px auto 70px auto;
+        font-size: 25px;
+    }
+    .vertical-hero {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+
+        .hero-cont {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 345px;
+            margin: auto;
+
+            .num-line {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                h3 {
+                    color: $secondary-company-color;
+                    font-size: 25px;
+                    width: 30px;
+                }
+                .vertical-line1 {
+                    background-color: $secondary-company-color;
+                    height: 85px;
+                    width: 1px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+            }
+            .num-line3 {
+                align-self: flex-start;
+            }
+            .h2-paragraph {
+                align-self: flex-start;
+                width: 300px;
+
+                h2 {
+                    font-size: 25px;
+                    color: $primary-company-color;
+                }
+                p {
+                    font-size: 19px;
+                    line-height: 2rem;
+                    color: $second-secondary-color;
+                    margin-top: 10px;
+                }
+            } 
+        }
+    }
+
+    .try-fintekk-btn-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            width: 230px;
+            height: 65px;
+            font-size: 20px;
+            background-color: $secondary-company-color;
+            border: none;
+            border-radius: 15px;
+            color: $primary-background-color;
+        }
+    }
+    .illustration-cont {
+        margin-top: 100px;
+        img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.footer-cont {
+    margin-top: 100px;
+    padding: 20px;
+    
+    h2 {
+        color: $primary-company-color;
+        font-size: 30px;
+    }
+    .fintekk-para {
+        color: $second-secondary-color;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    .company-resources-cont {
+        margin-top: 40px;
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+
+        .company-cont {
+            display: flex;
+            flex-direction: column;
+
+            .company-para {
+                color: $primary-company-color;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            a {
+                margin: 10px 0px;
+                color: $primary-company-color;
+                text-decoration: none;
+            }
+        }
+        .services-cont {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+
+            .service-para {
+                color: $primary-company-color;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            a {
+                margin: 10px 0px;
+                color: $primary-company-color;
+                text-decoration: none;
+            }
+        }
+    }
+    .company-resources-cont-second {
+        margin-top: 30px;
+        display: flex;
+        // align-items: center;
+        justify-content: space-between;
+
+        .resources-cont {
+            display: flex;
+            flex-direction: column;
+
+            .resources-para {
+                color: $primary-company-color;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            a {
+                margin: 10px 0px;
+                color: $primary-company-color;
+                text-decoration: none;
+
+                &:hover {
+                    border-bottom: 5px solid $primary-company-color;
+                    transition: all ease-in-out 2s;
+                }
+            }
+            
+        }
+        .contact-us-cont {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+
+            .contact-us-para {
+                color: $primary-company-color;
+                font-size: 18px;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            a {
+                margin: 10px 0px;
+                color: $primary-company-color;
+                text-decoration: none;
+            }
+        }
+    }
+    .footer-text {
+        color: $primary-company-color;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+}
