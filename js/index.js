@@ -1,20 +1,8 @@
-window.onload = function() {
-    var preloader = document.getElementById('preloader');
-    preloader.style.display = 'none';
-  };
+// window.onload = function() {
+//     var preloader = document.getElementById('preloader');
+//     preloader.style.display = 'none';
+//   };
 
-const faqsBtn = document.getElementById("faqs-question-btn");
-
-
-faqsBtn.addEventListener("click", function () {
-  let faqsAns = document.getElementById("faqs-answer");
-
-  if (faqsAns.style.display = "none") {
-    faqsAns.style.display = "block"
-  } else if (faqsAns.style.display = "block") {
-    faqsAns.style.display = "none"
-  }
-})
 
 // carousel indicator
 
@@ -47,7 +35,7 @@ const menuBtn = document.querySelector(".menu-cont");
 
 let showMenu = false;
 
-console.log(menuBtn);
+// console.log(menuBtn);
 
 menuBtn.addEventListener("click", () => {
   if (!showMenu) {
@@ -59,4 +47,44 @@ menuBtn.addEventListener("click", () => {
 
     showMenu = false;
   }
+})
+
+//faqs
+// const faqsBtn = document.querySelectorAll("#faqs-question-btn");
+// console.log(faqsBtn)
+
+
+// faqsBtn.addEventListener("click", function () {
+//   let faqsAns = document.getElementById("faqs-answer");
+
+  // if (faqsAns.style.display = "none") {
+  //   faqsAns.style.display = "block"
+  // } else if (faqsAns.style.display = "block") {
+  //   faqsAns.style.display = "none"
+  // }
+// })
+
+let faqsBtnOne = document.getElementById("box-one");
+let faqsBtnTwo = document.getElementById("box-two");
+let faqsBtnThree = document.getElementById("box-three");
+
+
+
+let faqsAns = document.getElementById("faqs-answer-one");
+let faqsAnsTwo = document.getElementById("faqs-answer-two");
+let faqsAnsThree = document.getElementById("faqs-answer-three");
+console.log(faqsAns)
+
+faqsBtnOne.addEventListener("click", () => {
+  console.log("btn clicked");
+  
+  faqsAns.style.display = "block"
+})
+faqsBtnTwo.addEventListener("click", () => {
+  console.log("btn clicked");
+  faqsAnsTwo.style.display = "block"
+})
+faqsBtnThree.addEventListener("click", () => {
+  console.log("btn clicked");
+  faqsAnsThree.style.display = "block"
 })

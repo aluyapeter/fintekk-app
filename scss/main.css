@@ -587,28 +587,31 @@ button {
   margin-bottom: 10px;
   text-align: left;
 }
-.faqs-cont .question-cont {
+.faqs-cont .faqs-quest-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faqs-cont .faqs-quest-hero p {
+  cursor: pointer;
+}
+.faqs-cont .faqs-quest-hero .question-cont {
   display: flex;
   justify-content: space-between;
   border: 1px solid white;
   border-radius: 10px;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   padding: 15px;
 }
-.faqs-cont .question-cont #faqs-question-btn {
-  cursor: pointer;
-}
-.faqs-cont .answer-cont {
+.faqs-cont .faqs-quest-hero .answer-cont {
   background-color: white;
   color: blue;
-  width: 90%;
+  width: 100%;
   margin-top: 8px;
   padding: 20px;
   border-radius: 10px;
-  display: none;
-}
-.faqs-cont .answer-cont2, .faqs-cont .answer-cont3 {
   display: none;
 }
 

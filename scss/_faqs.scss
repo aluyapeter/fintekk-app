@@ -15,29 +15,40 @@
         text-align: left;
     }
 
-    .question-cont {
+    .faqs-quest-hero {
+        // padding: 50px 20px;
         display: flex;
-        justify-content: space-between;
-        border: 1px solid white;
-        border-radius: 10px;
-        width: 90%;
-        margin-top: 10px;
-        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
-        #faqs-question-btn {
+        p {
             cursor: pointer;
         }
+        
+
+        .question-cont {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid white;
+            border-radius: 10px;
+            width: 100%;
+            margin-top: 10px;
+            padding: 15px;
+        }
+        .answer-cont {
+            background-color: $primary-background-color;
+            color: $secondary-company-color;
+            width: 100%;
+            margin-top: 8px;
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+        }
     }
-    .answer-cont {
-        background-color: $primary-background-color;
-        color: $secondary-company-color;
-        width: 90%;
-        margin-top: 8px;
-        padding: 20px;
-        border-radius: 10px;
-        display: none;
-    }
-    .answer-cont2, .answer-cont3 {
-        display: none;
-    }
+
+
+    // .answer-cont2, .answer-cont3 {
+    //     display: none;
+    // }
 }
