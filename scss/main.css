@@ -120,7 +120,7 @@ button {
   display: none;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .nav-main-container {
     display: flex;
     justify-content: space-between;
@@ -138,14 +138,10 @@ button {
     justify-content: space-between;
     list-style: none;
     color: black;
-    position: relative;
-    top: 0;
-    right: 0;
-    list-style: none;
-    background: blue;
+    background: white;
     height: 100%;
     width: 100%;
-    display: none;
+    font-size: 10px;
     flex-direction: row;
     align-items: center;
     text-align: center;
@@ -371,128 +367,160 @@ button {
   color: navy;
 }
 .sub-main-cont .our-services-cont p {
-  width: 375px;
+  width: 75%;
   padding: 0px 10px;
   margin: 20px auto 25px auto;
   line-height: 2rem;
   font-size: 18px;
   color: gray;
 }
-.sub-main-cont .easy-payment-cont {
+.sub-main-cont .sub-sub-main-cont {
+  display: flex;
+  flex-direction: column;
+}
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont {
   background-color: rgba(190, 215, 250, 0.2);
   border-radius: 30px;
   width: 80%;
   margin: 50px auto;
 }
-.sub-main-cont .easy-payment-cont h2 {
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont h2 {
   font-size: 35px;
   padding: 25px;
   text-align: left;
   color: navy;
 }
-.sub-main-cont .easy-payment-cont p {
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont p {
   padding: 0px 25px 25px 25px;
   font-size: 19px;
   line-height: 2rem;
   text-align: left;
   color: gray;
 }
-.sub-main-cont .easy-payment-cont .readmore-arrow-cont {
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont .readmore-arrow-cont {
   display: flex;
   align-items: center;
 }
-.sub-main-cont .easy-payment-cont .readmore-arrow-cont a {
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont .readmore-arrow-cont a {
   text-decoration: none;
   font-size: 20px;
   padding: 10px 15px 10px 25px;
   text-align: left;
   color: blue;
 }
-.sub-main-cont .easy-payment-cont .readmore-arrow-cont .right-arrow {
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont .readmore-arrow-cont .right-arrow {
   font-size: 20px;
   color: blue;
 }
-.sub-main-cont .easy-payment-cont img {
+.sub-main-cont .sub-sub-main-cont .easy-payment-cont img {
   margin: 20px;
   text-align: center;
 }
-.sub-main-cont .investment-cont {
+.sub-main-cont .sub-sub-main-cont .investment-cont {
   background-color: rgba(190, 200, 150, 0.2);
   border-radius: 30px;
   width: 80%;
   margin: 50px auto;
 }
-.sub-main-cont .investment-cont h2 {
+.sub-main-cont .sub-sub-main-cont .investment-cont h2 {
   font-size: 35px;
   padding: 25px;
   text-align: left;
   color: navy;
 }
-.sub-main-cont .investment-cont p {
+.sub-main-cont .sub-sub-main-cont .investment-cont p {
   padding: 0px 25px 25px 25px;
   font-size: 19px;
   line-height: 2rem;
   text-align: left;
   color: gray;
 }
-.sub-main-cont .investment-cont .readmore-arrow-cont {
+.sub-main-cont .sub-sub-main-cont .investment-cont .readmore-arrow-cont {
   display: flex;
   align-items: center;
 }
-.sub-main-cont .investment-cont .readmore-arrow-cont a {
+.sub-main-cont .sub-sub-main-cont .investment-cont .readmore-arrow-cont a {
   text-decoration: none;
   font-size: 20px;
   padding: 10px 15px 10px 25px;
   text-align: left;
   color: blue;
 }
-.sub-main-cont .investment-cont .readmore-arrow-cont .right-arrow {
+.sub-main-cont .sub-sub-main-cont .investment-cont .readmore-arrow-cont .right-arrow {
   font-size: 20px;
   color: blue;
 }
-.sub-main-cont .investment-cont img {
+.sub-main-cont .sub-sub-main-cont .investment-cont img {
   margin: 20px;
   text-align: center;
   width: 250px;
 }
-.sub-main-cont .fixed-savings-cont {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont {
   background-color: rgba(190, 215, 250, 0.2);
   border-radius: 30px;
   width: 80%;
   margin: 50px auto;
 }
-.sub-main-cont .fixed-savings-cont h2 {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont h2 {
   font-size: 35px;
   padding: 25px;
   text-align: left;
   color: navy;
 }
-.sub-main-cont .fixed-savings-cont p {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont p {
   padding: 0px 25px 25px 25px;
   font-size: 19px;
   line-height: 2rem;
   text-align: left;
   color: gray;
 }
-.sub-main-cont .fixed-savings-cont .readmore-arrow-cont {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont .readmore-arrow-cont {
   display: flex;
   align-items: center;
 }
-.sub-main-cont .fixed-savings-cont .readmore-arrow-cont a {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont .readmore-arrow-cont a {
   text-decoration: none;
   font-size: 20px;
   padding: 10px 15px 10px 25px;
   text-align: left;
   color: blue;
 }
-.sub-main-cont .fixed-savings-cont .readmore-arrow-cont .right-arrow {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont .readmore-arrow-cont .right-arrow {
   font-size: 20px;
   color: blue;
 }
-.sub-main-cont .fixed-savings-cont img {
+.sub-main-cont .sub-sub-main-cont .fixed-savings-cont img {
   margin: 20px;
 }
 
+@media (min-width: 1000px) {
+  .sub-main-cont .our-services-cont h3 {
+    font-weight: 100;
+    color: rgb(55, 53, 53);
+  }
+  .sub-main-cont .our-services-cont h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: navy;
+  }
+  .sub-main-cont .our-services-cont p {
+    width: 50%;
+    padding: 0px 10px;
+    margin: 20px auto 25px auto;
+    line-height: 2rem;
+    font-size: 18px;
+    color: gray;
+  }
+  .sub-main-cont .sub-sub-main-cont {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+  }
+  .sub-main-cont .sub-sub-main-cont .investment-cont {
+    margin: 50px 20px;
+  }
+}
 .sub-main2 .start-your-journey-text {
   text-align: center;
   color: navy;
@@ -608,13 +636,12 @@ button {
 .faqs-cont .faqs-quest-hero .dropdown-content {
   display: none;
   overflow: hidden;
-  transition: max-height 0.5s ease-out;
+  transition: 0.5s ease-out;
+  margin-top: 10px;
+  padding: 15px;
+  padding-bottom: 10px;
   background-color: white;
   color: blue;
-  width: 100%;
-  margin-top: 8px;
-  padding: 20px 15px;
-  font-size: 14px;
   border-radius: 10px;
 }
 .faqs-cont .faqs-quest-hero p {

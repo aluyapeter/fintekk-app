@@ -60,6 +60,6 @@ toggleDropdown.addEventListener("click", () => {
       dropdown.style.maxHeight = "0";
       setTimeout(function() {
         dropdown.style.display = "none";
-      }, 500); // Adjust the timeout value to match the transition duration
+      }, 100); // Adjust the timeout value to match the transition duration
     }
 })

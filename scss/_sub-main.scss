@@ -29,7 +29,7 @@
             color: $primary-company-color;
         }
         p {
-            width: 375px;
+            width: 75%;
             padding: 0px 10px;
             margin: 20px auto 25px auto;
             line-height: 2rem;
@@ -37,124 +37,169 @@
             color: gray;
         }
     }
-    .easy-payment-cont {
-        // border: 1px solid black;
-        background-color: rgba(190, 215, 250, 0.2);
-        border-radius: 30px;
-        width: 80%;
-        margin: 50px auto;
 
-        h2 {
-            font-size: 35px;
-            padding: 25px;
-            text-align: left;
-            color: $primary-company-color;
-        }
-        p {
-            padding: 0px 25px 25px 25px;
-            font-size: 19px;
-            line-height: 2rem;
-            text-align: left;
-            color: gray;
-        }
-        .readmore-arrow-cont {
-            display: flex;
-            align-items: center;
-            a {
-                text-decoration: none;
-                font-size: 20px;
-                padding: 10px 15px 10px 25px ;
+    .sub-sub-main-cont {
+        display: flex;
+        flex-direction: column;
+        
+        .easy-payment-cont {
+            // border: 1px solid black;
+            background-color: rgba(190, 215, 250, 0.2);
+            border-radius: 30px;
+            width: 80%;
+            margin: 50px auto;
+    
+            h2 {
+                font-size: 35px;
+                padding: 25px;
                 text-align: left;
-                color: $secondary-company-color;
+                color: $primary-company-color;
             }
-            .right-arrow {
-                font-size: 20px;
-                color: $secondary-company-color;
+            p {
+                padding: 0px 25px 25px 25px;
+                font-size: 19px;
+                line-height: 2rem;
+                text-align: left;
+                color: gray;
+            }
+            .readmore-arrow-cont {
+                display: flex;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    padding: 10px 15px 10px 25px ;
+                    text-align: left;
+                    color: $secondary-company-color;
+                }
+                .right-arrow {
+                    font-size: 20px;
+                    color: $secondary-company-color;
+                }
+            }
+            img {
+                margin: 20px;
+                text-align: center;
             }
         }
-        img {
-            margin: 20px;
-            text-align: center;
+        .investment-cont {
+            // border: 1px solid black;
+            background-color: rgba(190, 200, 150, 0.2);
+            border-radius: 30px;
+            width: 80%;
+            margin: 50px auto;
+    
+            h2 {
+                font-size: 35px;
+                padding: 25px;
+                text-align: left;
+                color: $primary-company-color;
+            }
+            p {
+                padding: 0px 25px 25px 25px;
+                font-size: 19px;
+                line-height: 2rem;
+                text-align: left;
+                color: gray;
+            }
+            .readmore-arrow-cont {
+                display: flex;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    padding: 10px 15px 10px 25px;
+                    text-align: left;
+                    color: $secondary-company-color;
+                }
+                .right-arrow {
+                    font-size: 20px;
+                    color: $secondary-company-color;
+                }
+            }
+            img {
+                margin: 20px;
+                text-align: center;
+                width: 250px;
+            }
+        }
+        .fixed-savings-cont {
+            // border: 1px solid black;
+            background-color: rgba(190, 215, 250, 0.2);
+            border-radius: 30px;
+            width: 80%;
+            margin: 50px auto;
+    
+            h2 {
+                font-size: 35px;
+                padding: 25px;
+                text-align: left;
+                color: $primary-company-color;
+            }
+            p {
+                padding: 0px 25px 25px 25px;
+                font-size: 19px;
+                line-height: 2rem;
+                text-align: left;
+                color: gray;
+            }
+            .readmore-arrow-cont {
+                display: flex;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    padding: 10px 15px 10px 25px ;
+                    text-align: left;
+                    color: $secondary-company-color;
+                }
+                .right-arrow {
+                    font-size: 20px;
+                    color: $secondary-company-color;
+                }
+            }
+            img {
+                margin: 20px;
+            }
         }
     }
-    .investment-cont {
-        // border: 1px solid black;
-        background-color: rgba(190, 200, 150, 0.2);
-        border-radius: 30px;
-        width: 80%;
-        margin: 50px auto;
+}
 
-        h2 {
-            font-size: 35px;
-            padding: 25px;
-            text-align: left;
-            color: $primary-company-color;
-        }
-        p {
-            padding: 0px 25px 25px 25px;
-            font-size: 19px;
-            line-height: 2rem;
-            text-align: left;
-            color: gray;
-        }
-        .readmore-arrow-cont {
-            display: flex;
-            align-items: center;
-            a {
-                text-decoration: none;
-                font-size: 20px;
-                padding: 10px 15px 10px 25px;
-                text-align: left;
-                color: $secondary-company-color;
-            }
-            .right-arrow {
-                font-size: 20px;
-                color: $secondary-company-color;
-            }
-        }
-        img {
-            margin: 20px;
-            text-align: center;
-            width: 250px;
-        }
-    }
-    .fixed-savings-cont {
-        // border: 1px solid black;
-        background-color: rgba(190, 215, 250, 0.2);
-        border-radius: 30px;
-        width: 80%;
-        margin: 50px auto;
 
-        h2 {
-            font-size: 35px;
-            padding: 25px;
-            text-align: left;
-            color: $primary-company-color;
+@media (min-width: 1000px) {
+    .sub-main-cont {
+        .our-services-cont {
+            h3 {
+                font-weight: 100;
+                color: rgb(55, 53, 53);
+            }
+            h2 {
+                margin-top: 20px;
+                font-size: 40px;
+                color: $primary-company-color;
+            }
+            p {
+                width: 50%;
+                padding: 0px 10px;
+                margin: 20px auto 25px auto;
+                line-height: 2rem;
+                font-size: 18px;
+                color: gray;
+            }
         }
-        p {
-            padding: 0px 25px 25px 25px;
-            font-size: 19px;
-            line-height: 2rem;
-            text-align: left;
-            color: gray;
-        }
-        .readmore-arrow-cont {
+
+        .sub-sub-main-cont {
             display: flex;
-            align-items: center;
-            a {
-                text-decoration: none;
-                font-size: 20px;
-                padding: 10px 15px 10px 25px ;
-                text-align: left;
-                color: $secondary-company-color;
+            flex-direction: row;
+            // gap: 50px;
+            width: 80%;
+            margin: auto;
+            // align-items: center;
+            // justify-content: center;
+
+            .investment-cont {
+                margin: 50px 20px;
             }
-            .right-arrow {
-                font-size: 20px;
-                color: $secondary-company-color;
-            }
-        }
-        img {
-            margin: 20px;
         }
     }
 }

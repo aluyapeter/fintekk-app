@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
     .nav-main-container {
         display: flex;
         justify-content: space-between;
@@ -83,16 +83,11 @@
             justify-content: space-between;
             list-style: none;
             color: black;
-            position: relative;
-            top: 0;
-            right: 0;
-            list-style: none;
-            background: $secondary-company-color;
+            background: $primary-background-color;
             height: 100%;
             width: 100%;
-            display: none;
+            font-size: 10px;
             flex-direction: row;
-            // justify-content: center;
             align-items: center;
             text-align: center;
 
