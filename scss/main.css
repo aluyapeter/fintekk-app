@@ -593,26 +593,32 @@ button {
   align-items: center;
   justify-content: center;
 }
-.faqs-cont .faqs-quest-hero p {
-  cursor: pointer;
-}
-.faqs-cont .faqs-quest-hero .question-cont {
+.faqs-cont .faqs-quest-hero #btn {
   display: flex;
   justify-content: space-between;
   border: 1px solid white;
   border-radius: 10px;
   width: 100%;
   margin-top: 10px;
+  font-size: 14px;
   padding: 15px;
+  background-color: blue;
+  color: white;
 }
-.faqs-cont .faqs-quest-hero .answer-cont {
+.faqs-cont .faqs-quest-hero .dropdown-content {
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
   background-color: white;
   color: blue;
   width: 100%;
   margin-top: 8px;
-  padding: 20px;
+  padding: 20px 15px;
+  font-size: 14px;
   border-radius: 10px;
-  display: none;
+}
+.faqs-cont .faqs-quest-hero p {
+  cursor: pointer;
 }
 
 .testimonial-sec-cont {

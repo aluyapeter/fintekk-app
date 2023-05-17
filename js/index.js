@@ -49,42 +49,17 @@ menuBtn.addEventListener("click", () => {
   }
 })
 
-//faqs
-// const faqsBtn = document.querySelectorAll("#faqs-question-btn");
-// console.log(faqsBtn)
 
-
-// faqsBtn.addEventListener("click", function () {
-//   let faqsAns = document.getElementById("faqs-answer");
-
-  // if (faqsAns.style.display = "none") {
-  //   faqsAns.style.display = "block"
-  // } else if (faqsAns.style.display = "block") {
-  //   faqsAns.style.display = "none"
-  // }
-// })
-
-let faqsBtnOne = document.getElementById("box-one");
-let faqsBtnTwo = document.getElementById("box-two");
-let faqsBtnThree = document.getElementById("box-three");
-
-
-
-let faqsAns = document.getElementById("faqs-answer-one");
-let faqsAnsTwo = document.getElementById("faqs-answer-two");
-let faqsAnsThree = document.getElementById("faqs-answer-three");
-console.log(faqsAns)
-
-faqsBtnOne.addEventListener("click", () => {
-  console.log("btn clicked");
-  
-  faqsAns.style.display = "block"
-})
-faqsBtnTwo.addEventListener("click", () => {
-  console.log("btn clicked");
-  faqsAnsTwo.style.display = "block"
-})
-faqsBtnThree.addEventListener("click", () => {
-  console.log("btn clicked");
-  faqsAnsThree.style.display = "block"
+const toggleDropdown = document.getElementById("btn");
+toggleDropdown.addEventListener("click", () => {
+    var dropdown = document.getElementById("dropdown");
+    if (dropdown.style.display === "none") {
+      dropdown.style.display = "block";
+      dropdown.style.maxHeight = dropdown.scrollHeight + "px";
+    } else {
+      dropdown.style.maxHeight = "0";
+      setTimeout(function() {
+        dropdown.style.display = "none";
+      }, 500); // Adjust the timeout value to match the transition duration
+    }
 })

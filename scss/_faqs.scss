@@ -22,33 +22,34 @@
         align-items: center;
         justify-content: center;
 
-        p {
-            cursor: pointer;
-        }
-        
-
-        .question-cont {
+        #btn {
             display: flex;
             justify-content: space-between;
             border: 1px solid white;
             border-radius: 10px;
             width: 100%;
             margin-top: 10px;
+            font-size: 14px;
             padding: 15px;
+            background-color: $secondary-company-color;
+            color: $primary-background-color;
         }
-        .answer-cont {
+
+        .dropdown-content {
+            display: none;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
             background-color: $primary-background-color;
             color: $secondary-company-color;
             width: 100%;
             margin-top: 8px;
-            padding: 20px;
+            padding: 20px 15px;
+            font-size: 14px;
             border-radius: 10px;
-            display: none;
+        }
+
+        p {
+            cursor: pointer;
         }
     }
-
-
-    // .answer-cont2, .answer-cont3 {
-    //     display: none;
-    // }
 }
