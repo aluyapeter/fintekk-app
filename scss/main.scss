@@ -24,8 +24,6 @@
     align-items: center;
 }
 
-/*--------- main design start ----------*/
-
 body {
     background-color: $primary-background-color;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,15 +58,6 @@ body {
             span {
                 color: $secondary-company-color;
             }
-        }
-    }
-    .fintekk-phone-cont {
-        text-align: center;
-        margin-top: 70px;
-        margin-bottom: 70px;
-
-        img {
-            width: 55%;
         }
     }
 }
@@ -108,15 +97,6 @@ body {
                 span {
                     color: $secondary-company-color;
                 }
-            }
-        }
-        .fintekk-phone-cont {
-            text-align: center;
-            margin-top: 70px;
-            margin-bottom: 70px;
-    
-            img {
-                width: 55%;
             }
         }
     }

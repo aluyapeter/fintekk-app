@@ -120,7 +120,7 @@ button {
   display: none;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   .nav-main-container {
     display: flex;
     justify-content: space-between;
@@ -516,12 +516,21 @@ button {
     flex-direction: row;
     width: 80%;
     margin: auto;
+    justify-content: center;
   }
   .sub-main-cont .sub-sub-main-cont .investment-cont {
     margin: 50px 20px;
   }
 }
-.sub-main2 .start-your-journey-text {
+.sub-main2 .left-section .fintekk-phone-cont {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.sub-main2 .left-section .fintekk-phone-cont img {
+  width: 55%;
+}
+.sub-main2 .right-section .start-your-journey-text {
   text-align: center;
   color: navy;
   line-height: 2.5rem;
@@ -529,61 +538,61 @@ button {
   margin: 10px auto 70px auto;
   font-size: 25px;
 }
-.sub-main2 .vertical-hero {
+.sub-main2 .right-section .vertical-hero {
   width: 90%;
   margin: auto;
   margin-bottom: 80px;
   display: flex;
   flex-direction: column;
 }
-.sub-main2 .vertical-hero .hero-cont {
+.sub-main2 .right-section .vertical-hero .hero-cont {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 345px;
   margin: auto;
 }
-.sub-main2 .vertical-hero .hero-cont .num-line {
+.sub-main2 .right-section .vertical-hero .hero-cont .num-line {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.sub-main2 .vertical-hero .hero-cont .num-line h3 {
+.sub-main2 .right-section .vertical-hero .hero-cont .num-line h3 {
   color: blue;
   font-size: 25px;
   width: 30px;
 }
-.sub-main2 .vertical-hero .hero-cont .num-line .vertical-line1 {
+.sub-main2 .right-section .vertical-hero .hero-cont .num-line .vertical-line1 {
   background-color: blue;
   height: 85px;
   width: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.sub-main2 .vertical-hero .hero-cont .num-line3 {
+.sub-main2 .right-section .vertical-hero .hero-cont .num-line3 {
   align-self: flex-start;
 }
-.sub-main2 .vertical-hero .hero-cont .h2-paragraph {
+.sub-main2 .right-section .vertical-hero .hero-cont .h2-paragraph {
   align-self: flex-start;
   width: 300px;
 }
-.sub-main2 .vertical-hero .hero-cont .h2-paragraph h2 {
+.sub-main2 .right-section .vertical-hero .hero-cont .h2-paragraph h2 {
   font-size: 25px;
   color: navy;
 }
-.sub-main2 .vertical-hero .hero-cont .h2-paragraph p {
+.sub-main2 .right-section .vertical-hero .hero-cont .h2-paragraph p {
   font-size: 19px;
   line-height: 2rem;
   color: gray;
   margin-top: 10px;
 }
-.sub-main2 .try-fintekk-btn-cont {
+.sub-main2 .right-section .try-fintekk-btn-cont {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.sub-main2 .try-fintekk-btn-cont button {
+.sub-main2 .right-section .try-fintekk-btn-cont button {
   width: 230px;
   height: 65px;
   font-size: 20px;
@@ -592,14 +601,100 @@ button {
   border-radius: 15px;
   color: white;
 }
-.sub-main2 .illustration-cont {
+
+@media (min-width: 1000px) {
+  .sub-main2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sub-main2 .left-section .fintekk-phone-cont {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .sub-main2 .left-section .fintekk-phone-cont img {
+    width: 100%;
+  }
+  .sub-main2 .right-section .start-your-journey-text {
+    text-align: center;
+    color: navy;
+    line-height: 2.5rem;
+    width: 70%;
+    margin: 10px auto 70px auto;
+    font-size: 25px;
+  }
+  .sub-main2 .right-section .vertical-hero {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 345px;
+    margin: auto;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .num-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .num-line h3 {
+    color: blue;
+    font-size: 25px;
+    width: 30px;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .num-line .vertical-line1 {
+    background-color: blue;
+    height: 85px;
+    width: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .num-line3 {
+    align-self: flex-start;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .h2-paragraph {
+    align-self: flex-start;
+    width: 300px;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .h2-paragraph h2 {
+    font-size: 25px;
+    color: navy;
+  }
+  .sub-main2 .right-section .vertical-hero .hero-cont .h2-paragraph p {
+    font-size: 19px;
+    line-height: 2rem;
+    color: gray;
+    margin-top: 10px;
+  }
+  .sub-main2 .right-section .try-fintekk-btn-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-main2 .right-section .try-fintekk-btn-cont button {
+    width: 230px;
+    height: 65px;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    color: white;
+  }
+}
+.faqs-cont .illustration-cont {
   margin-top: 100px;
 }
-.sub-main2 .illustration-cont img {
+.faqs-cont .illustration-cont img {
   width: 100%;
 }
-
-.faqs-cont {
+.faqs-cont .faqs-quest-hero {
   background-color: blue;
   color: white;
   padding: 50px 20px;
@@ -608,25 +703,19 @@ button {
   align-items: center;
   justify-content: center;
 }
-.faqs-cont h2 {
+.faqs-cont .faqs-quest-hero h2 {
   width: 90%;
   margin: auto;
   font-size: 50px;
   margin-bottom: 10px;
   text-align: left;
 }
-.faqs-cont .faqs-quest-hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 .faqs-cont .faqs-quest-hero #btn {
   display: flex;
   justify-content: space-between;
   border: 1px solid white;
   border-radius: 10px;
-  width: 100%;
+  width: 70%;
   margin-top: 10px;
   font-size: 14px;
   padding: 15px;
@@ -642,12 +731,72 @@ button {
   padding-bottom: 10px;
   background-color: white;
   color: blue;
+  width: 70%;
   border-radius: 10px;
 }
 .faqs-cont .faqs-quest-hero p {
   cursor: pointer;
 }
 
+@media (min-width: 1000px) {
+  .faqs-cont {
+    display: flex;
+    justify-content: center;
+  }
+  .faqs-cont .illustration-cont {
+    margin-top: 0px;
+  }
+  .faqs-cont .illustration-cont img {
+    width: 100%;
+  }
+  .faqs-cont .box {
+    flex: 1;
+  }
+  .faqs-cont .box1 {
+    order: 2;
+  }
+  .faqs-cont .faqs-quest-hero {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .faqs-cont .faqs-quest-hero h2 {
+    width: 90%;
+    margin: 0px 0px 20px 0px;
+    font-size: 65px;
+    text-align: left;
+  }
+  .faqs-cont .faqs-quest-hero #btn {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+  }
+  .faqs-cont .faqs-quest-hero .dropdown-content {
+    display: none;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+    margin-top: 20px;
+    padding: 15px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: blue;
+    width: 90%;
+    border-radius: 10px;
+  }
+  .faqs-cont .faqs-quest-hero p {
+    cursor: pointer;
+  }
+}
 .testimonial-sec-cont {
   background-color: rgb(247, 245, 245);
   margin: auto;
@@ -727,6 +876,38 @@ button {
   color: navy;
 }
 
+@media (min-width: 1000px) {
+  .testimonial-sec-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 45px;
+  }
+  .testimonial-sec-cont .carousel {
+    width: 70%;
+    margin: 50px;
+  }
+  .testimonial-sec-cont .carousel-indicators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+  }
+  .testimonial-sec-cont .carousel-indicators .indicator {
+    margin: 0;
+  }
+  .testimonial-sec-cont .carousel-indicators .indicator-fa {
+    margin: 0;
+  }
+  .testimonial-sec-cont .carousel-indicators .right-arrow {
+    transform: rotate(90deg);
+  }
+  .testimonial-sec-cont .carousel-indicators .left-arrow {
+    transform: rotate(90deg);
+  }
+}
 .start-growing-cont {
   background-color: blue;
   width: 80%;
@@ -744,7 +925,7 @@ button {
   font-size: 35px;
   color: white;
 }
-.start-growing-cont input {
+.start-growing-cont .input-cont input {
   margin: 35px auto 10px auto;
   width: 100%;
   height: 50px;
@@ -754,13 +935,13 @@ button {
   background-color: blue;
   border: 1px solid white;
 }
-.start-growing-cont input::-moz-placeholder {
+.start-growing-cont .input-cont input::-moz-placeholder {
   color: white;
 }
-.start-growing-cont input::placeholder {
+.start-growing-cont .input-cont input::placeholder {
   color: white;
 }
-.start-growing-cont button {
+.start-growing-cont .input-cont button {
   width: 40%;
   height: 50px;
   border-radius: 15px;
@@ -770,6 +951,36 @@ button {
   font-size: 17px;
 }
 
+@media (min-width: 1000px) {
+  .start-growing-cont h2 {
+    width: 25%;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  .start-growing-cont .input-cont input {
+    margin: 35px auto 10px auto;
+    flex: 1;
+    width: 50%;
+    height: 50px;
+    border-radius: 35px;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+  }
+  .start-growing-cont .input-cont input::-moz-placeholder {
+    color: white;
+  }
+  .start-growing-cont .input-cont input::placeholder {
+    color: white;
+  }
+  .start-growing-cont .input-cont button {
+    width: 20%;
+    margin-right: 10;
+    height: 50px;
+    border-radius: 35px;
+  }
+}
 .footer-cont {
   margin-top: 100px;
   padding: 20px;
@@ -866,7 +1077,6 @@ button {
   margin-top: 30px;
 }
 
-/*--------- main design start ----------*/
 body {
   background-color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -902,14 +1112,6 @@ body .active-users-text-cont h2 {
 }
 body .active-users-text-cont h2 span {
   color: blue;
-}
-body .fintekk-phone-cont {
-  text-align: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-body .fintekk-phone-cont img {
-  width: 55%;
 }
 
 @media (min-width: 1000px) {
@@ -948,13 +1150,5 @@ body .fintekk-phone-cont img {
   }
   body .active-users-text-cont h2 span {
     color: blue;
-  }
-  body .fintekk-phone-cont {
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-  body .fintekk-phone-cont img {
-    width: 55%;
   }
 }/*# sourceMappingURL=main.css.map */

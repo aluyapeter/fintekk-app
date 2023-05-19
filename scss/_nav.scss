@@ -65,7 +65,7 @@
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
     .nav-main-container {
         display: flex;
         justify-content: space-between;
@@ -113,11 +113,7 @@
                 }
             }
         }
-        // .open {
-        //     .nav-items {
-        //         display: none;
-        //     }
-        // }
+
         .login-sign-up-cont {
             display: flex;
 
@@ -143,7 +139,6 @@
                 width: 150px;
                 border-radius: 10px;
                 border: none;
-                // font-size: 16px;
                 font-weight: bold;
                 background-color: $secondary-company-color;
                 color: white;

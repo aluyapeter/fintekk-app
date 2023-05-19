@@ -16,7 +16,6 @@
     }
 
     .carousel {
-        // border: 1px solid black;
         background-color: white;
         width: 90%;
         margin: 0px auto 60px auto;
@@ -81,6 +80,45 @@
         }
         .left-arrow {
             color: $primary-company-color;
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .testimonial-sec-cont {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 45px;
+
+        .carousel {
+            width: 70%;
+            margin: 50px;
+        }
+
+        .carousel-indicators {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            gap: 20px;
+
+            .indicator {
+                margin: 0;
+            }
+
+            .indicator-fa {
+                margin: 0;
+            }
+
+            .right-arrow {
+                transform: rotate(90deg);
+            }
+
+            .left-arrow {
+                transform: rotate(90deg);
+            }
         }
     }
 }
